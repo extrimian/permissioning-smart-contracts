@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'f28b2be8-7182-4223-9c30-d67ab8c41f2a'
   imageRepository: 'besudapp'
   containerRegistry: 'genova.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/docker/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
